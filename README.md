@@ -4,11 +4,31 @@ This R package retrieves and processes meteorological data for air modeling.
 
 The following meteorological stations are available:
 
-| call_sign     | name          | county  | state  |
-| ------------- |:-------------:| -------:|--------|
-| AXN           | Alecandria    | Douglas |  MN    |
-|     |       |      |  |
-| |     |      | |
+|call_sign |name                            |state |county      |years     | elevation_m|has_aerminute |upper_air_station             |
+|:---------|:-------------------------------|:-----|:-----------|:---------|-----------:|:-------------|:-----------------------------|
+|AXN       |Alexandria                      |MN    |Douglas     |2012-2016 |         432|Yes           |MPX - Chanhassen, MN          |
+|*BRD       |Brainerd                        |MN    |Crow Wing   |2012-2016 |         372|Yes           |MPX - Chanhassen, MN          |
+|DLH       |Duluth Int'l Arpt               |MN    |St. Louis   |2012-2016 |         435|Yes           |INL - International Falls, MN |
+|**DYT       |Duluth Sky Harbor Arpt          |MN    |St. Louis   |2009-2013 |         186|No            |INL - International Falls, MN |
+|FAR       |Fargo Int'l Arpt.               |ND    |Cass        |2012-2016 |         272|Yes           |ABR- Aberdeen, SD             |
+|FCM       |Flying Cloud Arpt               |MN    |Scott       |2012-2016 |         276|Yes           |MPX - Chanhassen, MN          |
+|FSD       |Sioux Falls Int'l Arpt          |SD    |Minnehaha   |2012-2016 |         433|Yes           |ABR- Aberdeen, SD             |
+|GFK       |Grand Forks Int'l Arp't         |ND    |Grand Forks |2012-2016 |         255|Yes           |ABR- Aberdeen, SD             |
+|HCO       |Hallock                         |MN    |Kittson     |2012-2016 |         249|No            |INL - International Falls, MN |
+|*HIB       |Hibbing                         |MN    |St. Louis   |2012-2016 |         408|Yes           |INL - International Falls, MN |
+|*INL       |International Falls             |MN    |Koochiching |2012-2016 |         353|Yes           |INL - International Falls, MN |
+|LSE       |La Crosse                       |WI    |La Crosse   |2012-2016 |         292|Yes           |MPX - Chanhassen, MN          |
+|MIC       |Crystal                         |MN    |Hennepin    |2012-2016 |         262|Yes           |MPX - Chanhassen, MN          |
+|MJQ       |Jackson                         |MN    |Jackson     |2012-2016 |         439|No            |MPX - Chanhassen, MN          |
+|MML       |Marshall                        |MN    |Lyon        |2012-2016 |         359|No            |MPX - Chanhassen, MN          |
+|MSP       |Minneapolis/St. Paul Int'l Arpt |MN    |Hennepin    |2012-2016 |         256|Yes           |MPX - Chanhassen, MN          |
+|OWA       |Owatonna                        |MN    |Steele      |2012-2016 |         344|No            |MPX - Chanhassen, MN          |
+|*PKD       |Park Rapids                     |MN    |Hubbard     |2012-2016 |         439|Yes           |MPX - Chanhassen, MN          |
+|RST       |Rochester                       |MN    |Olmsted     |2012-2016 |         396|Yes           |MPX - Chanhassen, MN          |
+|RWF       |Redwood Falls                   |MN    |Redwood     |2012-2016 |         311|Yes           |MPX - Chanhassen, MN          |
+|STC       |St. Cloud                       |MN    |Sherburne   |2012-2016 |         310|Yes           |MPX - Chanhassen, MN          |
+|STP       |St. Paul Downtown Arpt          |MN    |Ramsey      |2012-2016 |         212|Yes           |MPX - Chanhassen, MN          |
+|ULM       |New Ulm                         |MN    |Brown       |2012-2016 |         308|No            |MPX - Chanhassen, MN          |
 
 
 > *1-min. data (January-May) and 5-min data (June-December) for the year 2013 (January through May).
