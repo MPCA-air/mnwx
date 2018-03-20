@@ -1,8 +1,8 @@
 # mnwx
-Retrieve and process meteorological data for air modeling
+This R package retrieves and processes meteorological data for air modeling.
 
 
-The following sites are available:
+The following meteorological stations are available:
 
 | call_sign     | name          | county  | state  |
 | ------------- |:-------------:| -------:|--------|
